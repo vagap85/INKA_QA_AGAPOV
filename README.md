@@ -31,15 +31,15 @@
 
 Основной код (main/)
 
-· java/com/company/utils/ - Вспомогательные утилиты:
-  · ConfigReader.java - чтение конфигурационных файлов
-  · TestDataGenerator.java - генерация тестовых данных
-  · Waits.java - кастомные ожидания для Selenium
+· java/com/company/utils/ - Вспомогательные утилиты:<br>
+  · ConfigReader.java - чтение конфигурационных файлов <br>
+  · TestDataGenerator.java - генерация тестовых данных <br>
+  · Waits.java - кастомные ожидания для Selenium <br>
 
 Тестовый код (test/)
 
-· java/com/company/pages/ - Page Object Model:
-  · BasePage.java - базовый класс для всех страниц
+· java/com/company/pages/ - Page Object Model: <br>
+  · BasePage.java - базовый класс для всех страниц<br>
   · LoginPage.java - страница авторизации
   · UserTablePage.java - основная страница с таблицей пользователей
   · components/ - компоненты страниц:
