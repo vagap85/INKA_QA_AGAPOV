@@ -31,19 +31,19 @@ bash <br>
 mvn clean test
 
 ### Запуск с параметрами
-bash
+bash <br>
 mvn clean test -Dbrowser=firefox -DbaseUrl=https://mes.inka.team
 
 ### Запуск определенных тестов
-bash
+bash <br>
 mvn clean test -Dtest=UserCreationTest
 
 ### Генерация отчётов
-bash
+bash <br>
 mvn surefire-report:report
 
 ### Запуск в Docker
-bash
+bash <br>
 docker-compose up --build
 
 
