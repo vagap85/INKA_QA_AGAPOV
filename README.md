@@ -15,11 +15,11 @@
 
 ## Переменные окружения
 
-- "BASE_URL" - URL тестового окружения (по умолчанию: https://mes.inka.team)
-- "BROWSER" - браузер для тестов (chrome/firefox, по умолчанию: chrome)
+- "BASE_URL" - URL тестового окружения https://mes.inka.team
+- "BROWSER" - браузер для тестов chrome: chrome
 - "REMOTE" - URL remote WebDriver (для Selenium Grid)
-- "USERNAME" - логин пользователя (по умолчанию: admin)
-- "PASSWORD" - пароль пользователя (по умолчанию: admin)
+- "USERNAME" - логин пользователя (admin)
+- "PASSWORD" - пароль пользователя (admin)
 
 ## 1. Структура проекта
 - src/test/java/com/company/tests/ - тестовые классы
